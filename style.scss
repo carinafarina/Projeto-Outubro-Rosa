@@ -1,0 +1,136 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+header {
+    height: 16.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FF69B4;
+    @media (max-width: 700px){
+        flex-direction: column;
+        height: 30vh;
+    }}
+    img{
+        width: 6.5vw;
+        height: 13.5vh;
+        @media (max-width: 1000px){
+            width: 7.5vw;
+        }
+    }
+    .text{
+        color:#E4EEF1;
+
+        display: flex;
+        align-items: center;
+        @media (max-width: 700px){
+            flex-direction: column;
+     }}
+     h1{
+        font-size: 1.7vw;
+        @media (max-width: 1000px){
+            width: 7.5vw;
+        }
+     }
+
+nav{
+    width: 40vw;
+    height: 3.3vh;    
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;    
+        color:#E4EEF1;
+        font-size: 1.5vw;
+        @media (max-width: 1000px){
+            font-size: 2vw;
+        }
+    }
+
+//-----------------------------MAIN--------------------------------
+}
+.firstContainer{
+    width: 98.9vw;
+    height: 51.8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFD9EC;
+    @media (max-width:600px){
+        flex-direction: column;
+    }
+    p{
+        width: 42.2vw;
+        font-size: 1.6vw;
+    }
+    img{
+        width: 28.0vw;
+        height: 38.0vh;
+        
+    }
+}
+.secondContainer{
+    width: 98.9vw;
+    height: 35.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FF69B4;
+    flex-direction: row-reverse;
+    p{
+        color:#E4EEF1;
+        width: 42.2vw;
+        font-size: 1.6vw;
+
+    }
+    img{
+        width: 22.0vw;
+        height: 28.0vh;
+    }
+}
+.thirdContainer{
+    width: 98.9vw;
+    height: 57.7vh;
+    background: #FFD9EC;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 17.8vw;
+        height: 33.8vh;
+    }
+}
+//------------------------FOOTER----------------
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FF69B4;
+    height: 19.5vh;
+    ul{
+        display: flex;
+        align-items: center;
+        list-style: none;    
+        color:#E4EEF1;
+        font-size: 20px;  
+        flex-direction: column;
+        }
+    img{
+        width: 3.7vw;
+        height: 7.6vh;
+    }
+    .laço{
+        width: 6.8vw;
+        height: 14.9vh;
+
+    }
+}
+
+  
